@@ -1,0 +1,15 @@
+{
+  "name": "ejemplo-node",
+  "version": "1.0.0",
+  "description": "1 Ejercicio JS",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "author": "Rafael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "git": "^0.1.5"
+  }
+}
