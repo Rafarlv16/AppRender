@@ -1,9 +1,12 @@
 const express = require('express')
 const app = express()
 
-app.get('/', function (req, res) {
-    res.send('index.html')
-})
+fetch('index.html')
+  .then(response => response.text())
+  .then(data => {
+    document.querySelector('body').innerHTML = data;
+  });
+
 
 
 app.listen(3000)
